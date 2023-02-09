@@ -4,7 +4,7 @@ go 1.13
 
 require (
 	cuelang.org/go v0.2.2
-	github.com/Azure/go-autorest v12.2.0+incompatible // Don't remove. https://github.com/kubernetes/client-go/issues/628
+	github.com/Azure/go-autorest v12.2.0+incompatible // indirect; Don't remove. https://github.com/kubernetes/client-go/issues/628
 	github.com/coreos/prometheus-operator v0.41.1
 	github.com/crossplane/crossplane-runtime v0.9.0
 	github.com/crossplane/oam-kubernetes-runtime v0.1.1-0.20200909070723-78b84f2c4799
@@ -12,7 +12,7 @@ require (
 	github.com/gertd/go-pluralize v0.1.7
 	github.com/ghodss/yaml v1.0.0
 	github.com/gin-contrib/static v0.0.0-20200815103939-31fb0c56a3d1
-	github.com/gin-gonic/gin v1.6.3
+	github.com/gin-gonic/gin v1.7.7
 	github.com/go-logr/logr v0.1.0
 	github.com/google/go-cmp v0.5.2
 	github.com/google/go-github/v32 v32.1.0
@@ -22,7 +22,6 @@ require (
 	github.com/onsi/ginkgo v1.11.0
 	github.com/onsi/gomega v1.8.1
 	github.com/pkg/errors v0.9.1
-	github.com/rs/xid v1.2.1 // indirect
 	github.com/satori/go.uuid v1.2.1-0.20181028125025-b2ce2384e17b
 	github.com/spf13/cobra v1.0.0
 	github.com/spf13/pflag v1.0.5
